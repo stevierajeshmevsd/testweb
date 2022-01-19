@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="voi.css">
+    <title>BPA website</title>
+</head>
+<body onload="circlesize(4)">
+    <div class="mainPage">
+        <nav>
+            <ul>
+                
+                <li><a href="index.html"><img src="tree_testing1.png" height="50px" width="50px"></li>
+                <li><a href="page_1.html">Page 1</a></li>
+                <li><a href="page_2.html">Page 2</a></li>
+                <li><a href="page_3.html">Page 3</a></li>
+                <li><a href="page_4.html">Page 4</a></li>
+                <li><a href="page_5.html">Page 5</a></li>
+                <li><div class="heading"><h1>debugging taskbar</h1></div></li>
+            </ul>
+        </nav>
+        <script type="text/javascript">
+            function gcd (a, b) {
+                return (b == 0) ? a : gcd (b, a%b);
+            }
+            var w = screen.width;
+            var h = screen.height;
+            var r = gcd (w, h);
+            document.write ("<pre>");
+            document.write ("Dimensions = ", w, " x ", h, "<br>");
+            document.write ("Gcd        = ", r, "<br>");
+            document.write ("Aspect     = ", w/r, ":", h/r);
+            document.write ("</pre>");
+        </script>
+    
+</body>
+
+</html>

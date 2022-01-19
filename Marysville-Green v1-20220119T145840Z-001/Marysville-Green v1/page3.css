@@ -1,0 +1,385 @@
+/*Organize */
+body{
+  background-color: white;
+}
+#square div {
+  display: block;
+  float: center;
+ 
+  border-radius: 0px;
+  width: 100%;
+  /* Height: 200%; */
+  aspect-ratio: 16 / 12;
+  margin-left: 0%;
+  margin-top: 1.75%;
+}
+
+#colorsquare {
+  /* background: rgb(60, 107, 92); */
+  background-image: linear-gradient( rgb(57, 185, 125), rgb(149, 230, 208));
+  /* background-image: url(cloud.webp); */
+}
+
+#canvas2 div {
+  display: block;
+  float: center;
+ 
+  border-radius: 0px;
+  width: 100%;
+  /* Height: 200%; */
+  aspect-ratio: 16 / 7;
+  margin-left: 0%;
+  margin-top: 0%;
+}
+
+#colorCanvas2 {
+  /* background: rgb(60, 107, 92); */
+  background-image: linear-gradient(rgb(149, 230, 208), rgb(255, 255, 255));
+}
+
+#canvas3 div {
+  display: block;
+  float: center;
+ 
+  border-radius: 0px;
+  width: 100%;
+  /* Height: 200%; */
+  aspect-ratio: 16 / 7;
+  margin-left: 0%;
+  margin-top: 10%;
+}
+
+#colorCanvas3 {
+  /* background: rgb(60, 107, 92); */
+  background-image:  rgb(255, 255, 255);
+}
+
+.bpa_image {
+  width: 10%;
+  margin-left: 2%;
+  margin-top: -10%;
+  margin-right: 1.5%;
+  border-radius: 10px;
+  float: right;
+  }
+  
+  .marysville_logo {
+  width: 10%;
+  margin-top: 1%;
+  margin-left: 0%;
+  }
+  
+  #emptycanvas div {
+  display: block;
+  float: center;
+  
+  width: 100%;
+  /* Height: 300px; */
+  aspect-ratio: 16 / 3;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 0px;
+  margin-top: 0%;
+  }
+
+#emptycanvascolor { background: rgb(20, 22, 20);}
+
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #2c2a2a;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-right: 15%;
+  height: 6%;
+  }
+  
+  .navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 3px;
+  }
+  
+  .navbar a:hover {
+  background: #ddd;
+  color: black;
+  }
+  
+  
+  .a1 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 8%;
+  /* margin-top: -0.5%; */
+  }
+  
+  .a2 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  /* margin-top: -0.5%; */
+  margin-right: 8%;
+  
+  }
+  
+  .a3 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 34%;
+  /* margin-top: -0.5%; */
+  }
+  
+  .a4 {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+  /* margin-top: -0.5%; */
+  margin-right: 11%;
+  /* margin-left: -90%; */
+  }
+  
+  .circle_actual_image {
+  width: 7.9%;
+  margin-top: 10%;
+  margin-left: 47.66%;
+  margin-top: -2%;
+  position: fixed;
+  }
+  
+  .circle_image {
+  float: center;
+  width: 5%;
+  /* height: 25%; */
+  margin-left: 48%;
+  margin-top: -2%;
+  position: fixed;
+  }
+
+.landfill_img {
+  width: 40%;
+  margin-top: 0%;
+  margin-left: 7%;
+  border-radius: 15px;
+}
+
+.p_title {
+  float: right;
+  font-size: 300%;
+  margin-top: 0%;
+  margin-right: 10%;
+  color: white;
+  /* font-family: 'Staatliches', cursive; */
+  letter-spacing: 5px;
+}
+
+.text {
+  margin-left: 50%;
+  margin-top: -15%;
+  color: white;
+  font-size: 150%;
+  margin-right: 2%;
+}
+
+.pt1 {
+  font-family: 'Staatliches', cursive;
+  color: white;
+  margin-left: 49%;
+  font-size: 140%;
+  margin-top: -3%;
+  letter-spacing: 3px;
+}
+
+.p1 {
+  font-family: 'Staatliches', cursive;
+  color: white;
+  margin-left: 3%;
+  margin-top: -70%;
+}
+
+.first_letter{
+  color: #000000;
+  font-size: 2000%;
+  letter-spacing: 20px;
+  margin-left: 0%;
+  /* margin-top: 10%; */
+}
+
+.image_cloud {
+  /* width: 100%; */
+  margin-top: -15%;
+  margin-left: 0%;
+  object-fit: fill;
+}
+
+#square33 div {
+  display: block;
+  float: center;
+ 
+  border-radius: 20px;
+  width: 80%;
+  Height: 600px;
+  aspect-ratio: 16 / 8;
+  margin-left: 10%;
+  margin-top: -70%;
+  border: solid 5px blue;
+}
+
+#colorsquare33 {background: rgb(255, 255, 255);}
+
+#info div{
+  width: 80%;
+  /* border: solid blue 3px; */
+  margin-left: 10%;
+  aspect-ratio: 16 / 8;
+  margin-top: -50%;
+  border-radius: 10px;
+}
+
+#colorinfo {background: rgb(255, 255, 255);}
+
+.infoimg{
+  width: 40%;
+  margin-top: 5%;
+  /* border: solid blue 3px; */
+  margin-left: 1%;
+  border-radius: 10px;
+}
+
+.infoheading{
+  margin-top: 0%;
+  font-size: 350%;
+  letter-spacing: 3px;
+}
+
+.infoparagraph {
+  margin-left: 45%;
+  margin-top: -33%;
+  padding-right: 2%;
+  font-size: 200%;
+  font-family: 'Antic Slab', serif;
+
+}
+
+#cloud1 div{
+  float: left;
+  margin-left: -30%;
+}
+/* 
+#cloudCanv1 {
+  /* background-image: url(back_cloud.png); */
+} */
+
+.landfill_img {
+  width: 40%;
+  margin-top: 0%;
+  margin-left: 7%;
+  border-radius: 15px;
+}
+
+.p_title {
+  float: right;
+  font-size: 300%;
+  margin-top: 0%;
+  margin-right: 10%;
+  color: black;
+  /* font-family: 'Staatliches', cursive; */
+  letter-spacing: 5px;
+}
+
+.text {
+  margin-left: 50%;
+  margin-top: -25%;
+  color: black;
+  font-size: 150%;
+  margin-right: 2%;
+}
+
+#design div{
+  width: 45%;
+  aspect-ratio: 16 / 12;
+  float: left;
+  margin-left: 15%;
+  /* border: solid 3px blue; */
+  margin-top: -50%;
+  border-radius: 10px; 
+}
+
+#colorDesign {
+  background-image: linear-gradient( rgb(57, 185, 125), rgb(149, 230, 208))
+}
+
+#design1 div{
+  width: 22.5%;
+  aspect-ratio: 16 / 12;
+  float: left;
+  margin-left: 61%;
+  /* border: solid 3px blue; */
+  margin-top: -50%;
+  border-radius: 10px;
+}
+
+#colorDesign1 {
+  background-color: rgb(57, 185, 125);
+}
+
+#design2 div{
+  width: 22.5%;
+  aspect-ratio: 16 / 12;
+  float: left;
+  margin-left: 61%;
+  /* border: solid 3px blue; */
+  margin-top: -33%;
+  border-radius: 10px;
+}
+
+#colorDesign2 {
+  background-color: rgb(57, 185, 125);
+}
+
+.plant {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 8%;
+  border-radius: 10px;
+}
+
+.explain {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  font-size: 150%;
+  font-family: 'Antic Slab', serif;
+  color: black;
+}
+
+

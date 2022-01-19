@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Cormorant_SC"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BPA_code"
+	}
+}
